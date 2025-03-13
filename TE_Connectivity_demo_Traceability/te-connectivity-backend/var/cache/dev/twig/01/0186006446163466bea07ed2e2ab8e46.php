@@ -264,6 +264,6 @@ class __TwigTemplate_ff97d9c7c8390e8225e11612d2f41ad7 extends Template
 
 </body>
 </html>
-", "@ApiPlatform/Graphiql/index.html.twig", "/workspaces/phpApi/TE_Connectivity_demo_Traceability/te-connectivity-backend/vendor/api-platform/symfony/Bundle/Resources/views/Graphiql/index.html.twig");
+", "@ApiPlatform/Graphiql/index.html.twig", "/var/www/html/vendor/api-platform/symfony/Bundle/Resources/views/Graphiql/index.html.twig");
     }
 }

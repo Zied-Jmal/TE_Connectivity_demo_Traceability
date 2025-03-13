@@ -180,6 +180,6 @@ class __TwigTemplate_e92c2282bfbc902a93c5f1f81d504253 extends Template
         {%- endfor -%}
     </pre>
 {% endif %}
-", "@Doctrine/Collector/explain.html.twig", "/workspaces/phpApi/TE_Connectivity_demo_Traceability/te-connectivity-backend/vendor/doctrine/doctrine-bundle/templates/Collector/explain.html.twig");
+", "@Doctrine/Collector/explain.html.twig", "/var/www/html/vendor/doctrine/doctrine-bundle/templates/Collector/explain.html.twig");
     }
 }

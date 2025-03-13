@@ -182,6 +182,6 @@ class __TwigTemplate_ef03bf78524a92e42f0fbf0a79516294 extends Template
         {% block body %}{% endblock %}
     </body>
 </html>
-", "base.html.twig", "/workspaces/phpApi/TE_Connectivity_demo_Traceability/te-connectivity-backend/templates/base.html.twig");
+", "base.html.twig", "/var/www/html/templates/base.html.twig");
     }
 }

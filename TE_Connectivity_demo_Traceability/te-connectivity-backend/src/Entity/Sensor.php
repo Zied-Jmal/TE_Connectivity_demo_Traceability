@@ -2,45 +2,33 @@
 // src/Entity/Sensor.php
 namespace App\Entity;
 
-use ApiPlatform\Core\Annotation\ApiResource;
+use ApiPlatform\Metadata\ApiResource;
 use Doctrine\ORM\Mapping as ORM;
 
-/**
- * @ApiResource()
- * @ORM\Entity(repositoryClass="App\Repository\SensorRepository")
- */
+#[ApiResource]
+#[ORM\Entity(repositoryClass: 'App\Repository\SensorRepository')]
 class Sensor
 {
-    /**
-     * @ORM\Id
-     * @ORM\GeneratedValue
-     * @ORM\Column(type="integer")
-     */
-    private $id;
+    #[ORM\Id]
+    #[ORM\GeneratedValue]
+    #[ORM\Column(type: 'integer')]
+    private int $id;
 
-    /**
-     * @ORM\Column(type="string", length=255)
-     */
-    private $sensor_id;
+    #[ORM\Column(type: 'string', length: 255)]
+    private string $sensor_id;
 
-    /**
-     * @ORM\Column(type="string", length=255)
-     */
-    private $sensor_type;
+    #[ORM\Column(type: 'string', length: 255)]
+    private string $sensor_type;
 
-    /**
-     * @ORM\Column(type="string", length=255)
-     */
-    private $status;
+    #[ORM\Column(type: 'string', length: 255)]
+    private string $status;
 
-    // Getters and setters for each property...
-
-    public function getId(): ?int
+    public function getId(): int
     {
         return $this->id;
     }
 
-    public function getSensorId(): ?string
+    public function getSensorId(): string
     {
         return $this->sensor_id;
     }
@@ -51,7 +39,7 @@ class Sensor
         return $this;
     }
 
-    public function getSensorType(): ?string
+    public function getSensorType(): string
     {
         return $this->sensor_type;
     }
@@ -62,7 +50,7 @@ class Sensor
         return $this;
     }
 
-    public function getStatus(): ?string
+    public function getStatus(): string
     {
         return $this->status;
     }

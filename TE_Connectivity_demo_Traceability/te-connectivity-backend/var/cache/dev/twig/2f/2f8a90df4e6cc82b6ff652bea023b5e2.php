@@ -399,6 +399,6 @@ class __TwigTemplate_b272cfe68468fb0fdc8282bd6128ae70 extends Template
 {% endblock body_javascript %}
 </body>
 </html>
-", "@ApiPlatform/GraphQlPlayground/index.html.twig", "/workspaces/phpApi/TE_Connectivity_demo_Traceability/te-connectivity-backend/vendor/api-platform/symfony/Bundle/Resources/views/GraphQlPlayground/index.html.twig");
+", "@ApiPlatform/GraphQlPlayground/index.html.twig", "/var/www/html/vendor/api-platform/symfony/Bundle/Resources/views/GraphQlPlayground/index.html.twig");
     }
 }

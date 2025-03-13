@@ -514,6 +514,6 @@ class __TwigTemplate_d64378136a434f3d56cf8710868c4a73 extends Template
 
 </body>
 </html>
-", "@ApiPlatform/SwaggerUi/index.html.twig", "/workspaces/phpApi/TE_Connectivity_demo_Traceability/te-connectivity-backend/vendor/api-platform/symfony/Bundle/Resources/views/SwaggerUi/index.html.twig");
+", "@ApiPlatform/SwaggerUi/index.html.twig", "/var/www/html/vendor/api-platform/symfony/Bundle/Resources/views/SwaggerUi/index.html.twig");
     }
 }
